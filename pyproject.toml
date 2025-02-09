@@ -22,7 +22,7 @@ dependencies = [
     "numpy",
     "matplotlib"
 ]
-requires-python = ">=3.9"
+requires-python = ">=3.12"
 
 [project.urls]
 Home = "https://github.com/cbthompson1/HW4-Clustering"
