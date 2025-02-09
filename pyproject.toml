@@ -10,7 +10,7 @@ pythonpath = [
 ]
 
 [project]
-name = "KClustering"
+name = "cluster"
 authors = [{name = "Chris Thompson", email = "chris.thompson@ucsf.edu"}]
 readme = "README.md"
 license = {file = "LICENSE"}
