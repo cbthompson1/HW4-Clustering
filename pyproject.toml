@@ -20,7 +20,8 @@ dependencies = [
     "pytest",
     "scipy",
     "numpy",
-    "matplotlib"
+    "matplotlib",
+    "scikit-learn"
 ]
 requires-python = ">=3.12"
 
