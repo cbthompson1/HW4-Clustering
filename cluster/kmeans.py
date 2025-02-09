@@ -61,7 +61,7 @@ class KMeans:
         if len(mat[0]) != self.dims:
             raise ValueError("Input matrix does not have the correct "
                              f"number of dimensions {self.dims}.")
-        if type(mat[0][0]) != np.float_:
+        if type(mat[0][0]) != np.float64:
             raise ValueError("Input matrix does not contain floats, contains "
                              f"{type(mat[0][0])}.")
 
