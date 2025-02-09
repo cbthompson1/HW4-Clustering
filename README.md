@@ -1,3 +1,5 @@
+[BuildStatus] (https://github.com/cbthompson1/HW4-Clustering/workflows/HW2-BFS/badge.svg?event=push)
+
 # Assignment 4
 Implementation of KMeans and Silhouette Scoring
 
@@ -69,21 +71,21 @@ scores = silhouette.score(labels)
 ## Tasks
 * Note: we will check that you can run your code on a medium-size dataset
 
-[ TODO ] Complete the KMeans class with your implementation of the algorithm
+Complete the KMeans class with your implementation of the algorithm
 
-  [ ] complete the `fit` method  
-  [ ] complete the `predict` method  
-  [ ] complete the `get_error` method  
-  [ ] complete the `get_centroid` method  
+  [X] complete the `fit` method  
+  [X] complete the `predict` method  
+  [X] complete the `get_error` method  
+  [X] complete the `get_centroid` method  
 
-[ TODO ] Complete the Silhouette class with your implementation of the metric
-  [ ] complete the `score` method  
+Complete the Silhouette class with your implementation of the metric
+  [X] complete the `score` method  
 
-[ TODO ] Unit Testing  
-  [ ] KMeans Class  
-  [ ] Silhouette Class -- make sure to test against sklearn
+Unit Testing  
+  [X] KMeans Class  
+  [X] Silhouette Class -- make sure to test against sklearn
 
-[ TODO ] Packaging  
+Packaging  
   [ ] pip installable module  
   [ ] github actions (install + pytest)  
 
